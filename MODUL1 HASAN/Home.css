@@ -1,0 +1,51 @@
+﻿.header {
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a:hover {
+    background-color: aqua;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: white;
+    color: white;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: right;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+}
+
+.Video {
+  background-color: white;
+  text-align: center; 
+
+}
+h2{
+    text-align : center;
+}

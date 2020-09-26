@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HOME </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="header" >
+        <img src="logo-ead.png" width="150px" height="50px"/>
+        <div class="header-left">
+<a href="home.html">Home</a>
+<a href="Profile.html">Profile</a>
+<a href="Product.html">Product</a>
+</div>
+</div>
+
+<table>
+<tr>
+<td colspan ="2">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-5">
+        <div Class="Video"> 
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/AwMeQJ_u73I" 
+            frameborder="8" allowfullscreen ></iframe></div>
+        </div>
+
+      </div>
+</td>
+<td>
+<form>
+<h2 >Registrasi Data Pelanggan </h2>
+<label for = "username">Nama </label>
+<input type="placeholder" id = "username">
+<br>
+<label for = "no.hp">No.hp </label>
+<input type="placeholder" id = "no.hp">
+<br>
+<label>Alamat </label>
+<textarea></textarea>
+<br>
+<label for = "payment">Pembayaran </label>
+<input type="radio" id = "cash" name="payment"><label for="cash">Cash</label>
+<input type="radio" id = "credit" name="payment"><label for="credit">Credit</label>
+<br>
+<label>Kategori Pesanan </label>
+<select>
+    <option> Komputer </option>
+    <option> Keyboard </option>
+    <option> Mouse </option>
+</select>
+<br>
+<br>
+<a href="submit" class="btn btn-primary">Kirim</a>
+</td>
+</tr>
+</table>
+</body>
+</html>
