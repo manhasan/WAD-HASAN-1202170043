@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="Booking.css">
+    <script> https://www.w3schools.com/css/css_website_layout.asp</script>
+</head>
+    <div class="navbar">
+    <ul>
+        <li> <a href="Home.html">Home</a> </li>
+        <li> <a href="Booking.html">Booking</a> </li>
+    </ul>
+</div>
+</div>
+<body>
+     <div class="container-sm">
+      <img src="hotel_standard.jpg" alt="Kamar Hotel" height="390px" align="right" border="2"/>
+     <br>
+     <form action="output_get.php" method="get">
+        <fieldset class="form-group">
+            <div class="form-group row">
+            <br>
+                <label class="col-sm-2 col-form-label">Name :</label>
+                <br>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Isi nama anda" name="name">
+                </div>
+            </div>
+            <br>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Check-in :</label>
+                <br>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" name="check_in">
+                </div>
+            <br>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Duration :</label>
+                <br>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="duration">
+                    <p>days</p>
+                </div>
+                <br>
+            <div class="form-group row">
+                <legend class="col-sm-2 col-form-label">Room Type :</label>
+                <br>
+                <div class="col-sm-10">
+                <div class="form-check">
+                    <select class="form-control" name="room_type">
+                        <option value="standard"> Standard </option>
+                        <option value="superior"> Superior </option>
+                        <option value="luxury"> Luxury </option>
+                    </select>
+                </div>
+                </div>
+                <br>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" name="add_service">Add Service :</label>
+                <p>$20/service</p>
+                <br>
+                <div class="col-sm-10">
+                    <input type="checkbox" id="room_service"><label for="room_service">Room Service</label> <br>
+                    <input type="checkbox" id="breakfast"><label for="breakfast">Breakfast</label>
+                <br>
+                </div>
+            <div class="form-group row">
+            <br>
+                <label class="col-sm-2 col-form-label">Phone Number :</label>
+                <br>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="no_hp">
+                </div>
+            </div>
+            <br>
+            <div style="text-align: left;" color="blue">
+                <input type="submit" value="Book" class="button">
+            </div>
+</body>
+</html>
