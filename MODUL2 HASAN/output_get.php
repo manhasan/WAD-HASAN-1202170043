@@ -16,7 +16,7 @@
 <body>
     <?php
     $name = $_GET['name'];
-    $check-in = $_GET['check_in'];
+    $check_in = $_GET['check_in'];
     $duration = $_GET['duration'];
     $room_type = $_GET['room_type'];
     $add_service = $_GET['add_service'];
@@ -31,7 +31,7 @@
             </tr>
             <tr>
                 <td>Check In:</td>
-                <td><?=check-in ?> </td>
+                <td><?=check_in?> </td>
             </tr>
             <tr>
                 <td>Duration:</td>
