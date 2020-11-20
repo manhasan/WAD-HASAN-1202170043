@@ -65,7 +65,7 @@ while($a=mysqli_fetch_array($ambildata)){
 		   <td><?php echo $a['benefit'];?></td>
 		   <td>
 		   <a href="form_update.php"><input type="button" name="Update" id="button" value="Update" class="btn btn-primary"></a>
-		   <a href="delete.php"><input type="button" name="Delete" id="button" value="Delete" class="btn btn-danger"></a>
+		   <a href="delete.php?id"><input type="button" name="Delete" id="button" value="Delete" class="btn btn-danger"></a> 
 		   </td>
        </tr>
 	   <br>
